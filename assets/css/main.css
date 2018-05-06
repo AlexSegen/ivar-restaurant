@@ -1,0 +1,332 @@
+/*----------------------------------------------------------------------
+
+	MASTER STYLESHEET
+
+	Project:        Ivar Template
+	Version:        1.0
+	Author:         Kunilab
+	Primary use:    Corporate, Business Themes.
+	Email:			contacto@kuni.me
+	Follow: 		http://www.twitter.com/kunilab
+	Like: 			http://www.facebook.com/kunilab
+	Website:		http://www.kuni.me
+
+
+Verde
+9E9D24
+AFB42B
+
+
+Naranja
+EF6C00
+F57C00
+
+
+
+Marron
+3E2723
+4E342E
+
+
+-----------------------------------------------------------------------*/
+/*
+html,body {
+    height:100%;
+    padding-top:70px;
+}
+
+
+section {
+  height:calc(90% - 50px);
+}*/
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	color: #333;
+	background: #fff;
+}
+
+h1,h2,h3,h4,h5 {
+	font-family: 'Lato', sans-serif;
+}
+
+a {
+	color: #EF6C00;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active
+ {
+	color: #F57C00;
+	transition: 0.3s ease-in-out;
+}
+
+.media .media-heading a:hover,
+.media .media-heading a:active,
+.media .media-heading a:focus
+{
+		color: #EF6C00;
+		transition: 0.3s ease-in-out;
+}
+
+
+/*--------------------------------------------------
+	[GENERAL]
+----------------------------------------------------*/
+
+.no-padding {
+	padding: 0px 0px 0px 0px;
+}
+
+/*--------------------------------------------------
+	[NAVBAR]
+----------------------------------------------------*/
+
+.navbar .logo {
+    max-width: 200px;
+    margin-top: -18px;
+}
+
+.navbar.navbar-ivar {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.affix {
+  padding:0px;
+  -webkit-transition:padding 0.2s linear;
+  -moz-transition:padding 0.2s linear;  
+  -o-transition:padding 0.2s linear;         
+  transition:padding 0.2s linear;  
+
+}
+
+.affix-top {
+  padding-top:15px;
+  padding-bottom:15px;
+  background: #eee;
+  -webkit-transition:padding 0.5s linear;
+  -moz-transition:padding 0.5s linear;  
+  -o-transition:padding 0.5s linear;         
+  transition:padding 0.5s linear;  
+}
+
+.navbar.navbar-ivar.affix-top  {
+	background: transparent;
+}
+
+.navbar.navbar-ivar.affix  {
+	background: #eee;
+}
+
+.navbar.navbar-ivar.affix .navbar-nav > li > a {
+	color: #666 !important;
+    font-weight: 600;
+    font-size: 14px;
+    border-bottom: 2px solid #eee;
+}
+
+.navbar.navbar-ivar .navbar-nav > li:hover {
+	border-bottom:2px solid #EF6C00;
+}
+
+
+/*--------------------------------------------------
+	[HERO]
+----------------------------------------------------*/
+
+
+.home-hero {
+    position: relative;
+    z-index: 8;
+    background: #00c6ff; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #00c6ff , #0072ff); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #00c6ff , #0072ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: url('../img/hero-bg.jpg') no-repeat;
+    background-size: 100%;
+
+}
+
+.home-hero .jumbotron {
+    background: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    position: relative;
+    padding-top: 220px;
+    padding-bottom: 180px;
+}
+
+.hero-content{
+    z-index: 10;
+    position: relative;
+}
+
+.hero-content .title {
+    color: #AFB42B;
+    font-size: 44px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+.hero-content .description{
+    color: #fff;
+    font-size: 18px;
+}
+
+.hero-overlay {
+	position: absolute;
+	width: 100%;
+	height:100%;
+	z-index: 9;
+	background: rgba(0,0,0,0.7); /* fallback for old browsers */
+}
+
+/*--------------------------------------------------
+	[BUTTONS]
+----------------------------------------------------*/
+.btn.btn-hero {
+	text-transform: uppercase;
+	color: #eee;
+	background: transparent;
+	border:2px solid #EF6C00;
+	font-weight: 600;
+    min-width: 200px;
+}
+
+.btn.btn-hero:hover { 
+	border:2px solid #F57C00;
+}
+
+.btn.btn-theme-first {
+	background: #9E9D24;
+	border-color: #9E9D24;
+	color: #eee;
+}
+
+.btn.btn-theme-first:hover,
+.btn.btn-theme-first:focus,
+.btn.btn-theme-first:active
+ {
+	background: #AFB42B;
+	border-color: #AFB42B;
+}
+
+.btn.btn-theme-second {
+	background: #EF6C00;
+	border-color: #EF6C00;
+	color: #eee;
+}
+
+.btn.btn-theme-second:hover,
+.btn.btn-theme-second:focus,
+.btn.btn-theme-second:active
+ {
+	background: #F57C00;
+	border-color: #F57C00;
+}
+
+.btn.btn-theme-third {
+	background: #3E2723;
+	border-color: #3E2723;
+	color: #eee;
+}
+
+.btn.btn-theme-third:hover,
+.btn.btn-theme-third:focus,
+.btn.btn-theme-third:active
+ {
+	background: #4E342E;
+	border-color: #4E342E;
+}
+
+/*--------------------------------------------------
+	[SECTIONS]
+----------------------------------------------------*/
+
+.section-margin {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	position: relative;
+}
+
+.section-gradient {
+color: #eee;
+background: #E44D26; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #E44D26 , #F16529); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #E44D26 , #F16529); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */       
+}
+
+.section-gradient .section-subtitle {
+	color: #eee;
+}
+
+.section-gradient .section-icon {
+	color: #eee;
+}
+
+.section-icon {
+	color: #EF6C00;
+	font-weight: 600;
+	font-size: 36px;
+	margin-bottom: 50px;
+}
+
+.section-title {
+	font-weight: 600;
+
+}
+
+.section-subtitle {
+    font-weight: 600;
+    margin-bottom: -18px;
+    color: #777;
+    font-style: italic;
+}
+
+
+.section-content {
+
+}
+
+.section-description {
+	font-size: 18px;
+
+}
+
+
+.section-food img {
+	width: 100%;
+}
+
+
+/*--------------------------------------------------
+	[FOOTER]
+----------------------------------------------------*/
+footer {
+	background: #181818;
+	color: #666;
+	margin-top: -25px;
+	text-align: center;
+	padding: 50px 0px 0px 0px;
+	position: relative;
+}
+
+footer h4 { 
+color: #eee;
+font-weight: 600;
+}
+
+.sub-footer {
+	background: #242424;
+	width: 100;
+	margin-top: 50px;
+	text-align: right;
+	position: relative;
+	bottom: 0;
+	padding-top: 5px;
+}

@@ -1,0 +1,67 @@
+@media screen and (max-width: 700px){
+
+.home-hero .jumbotron {
+    background: transparent;
+    padding-top: 85px;
+    padding-bottom: 30px;
+}
+
+.home-hero {
+    position: relative;
+    z-index: 8;
+	background: #E44D26 url('../img/hero-bg.jpg') no-repeat;; /* fallback for old browsers */
+    background-size: 100% 100%;
+        
+}
+
+.hero-content .title {
+    font-size: 24px;
+}
+
+.hero-content .description {
+     font-size: 14px;
+}
+
+.hero-overlay {
+	background: rgba(0,0,0,0.7); 
+}
+
+
+.section-title {
+    font-size: 28px;
+}
+
+
+.navbar.navbar-ivar.affix-top {
+    background: #eee;
+}
+
+
+.navbar.navbar-ivar.affix .navbar-nav > li > a {
+	color: #666 !important;
+    font-weight: 600;
+    font-size: 14px;
+    border-bottom: 2px solid #eee;
+}
+
+.navbar.navbar-ivar.affix-top .navbar-nav > li > a {
+	color: #666 !important;
+	font-weight: 600;
+    font-size: 14px;
+}
+
+.navbar-toggle {
+	background: #222;
+}
+
+.navbar .navbar-toggle:hover, .navbar .navbar-toggle:focus {
+    background-color: #e45227;
+}
+
+
+.media img {
+	max-width: 150px;
+}
+
+
+}
